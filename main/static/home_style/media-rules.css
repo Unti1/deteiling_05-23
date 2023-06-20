@@ -1,0 +1,422 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@media only screen and (min-width: 481px) {
+  .table-pc {
+    display: block; }
+  .table-mob {
+    display: none; } }
+
+@media only screen and (min-width: 1025px) {
+  .menu-toggle {
+    display: none; }
+  /*--------------------------------------------------------------
+  ## Posts and pages
+  --------------------------------------------------------------*/
+  .kc_column, .kc_column_inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .site-footer {
+    margin-bottom: 35px; } }
+
+@media only screen and (min-width: 1440px) {
+  .site-content {
+    min-height: 700px; } }
+
+@media only screen and (min-width: 1600px) {
+  .site-content {
+    min-height: 800px; } }
+
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */ }
+
+@media only screen and (max-width: 1024px) {
+  /*--------------------------------------------------------------
+  # Elements
+  --------------------------------------------------------------*/
+  h2 {
+    font-size: 30px;
+    line-height: normal;
+    text-shadow: none; }
+  h4 {
+    font-size: 20px;
+    line-height: normal; }
+  .full_row {
+    padding-left: 15px;
+    padding-right: 15px; }
+  /*--------------------------------------------------------------
+  ## Posts and pages
+  --------------------------------------------------------------*/
+  .club-left, .club-fullwidth {
+    padding-left: 30px !important;
+    padding-right: 50px !important;
+    margin-left: 0; }
+  .club-tips {
+    padding-left: 40px !important;
+    padding-right: 50px !important; }
+  .club-fullwidth2 {
+    padding-left: 30px !important;
+    padding-right: 50px !important;
+    margin-top: 50px; }
+  .main-page-right {
+    margin-left: -110px; }
+  /*--------------------------------------------------------------
+  # header
+  --------------------------------------------------------------*/
+  .header-content .red_button {
+    width: auto;
+    height: auto;
+    border: none;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px; }
+  .header-content .red_button-clear {
+    height: auto;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    margin-left: 8px;
+    margin-right: 8px; }
+  .header-content .spacer_slash {
+    display: block; }
+  .header-info {
+    width: 40%; }
+  .login-btns {
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 110px; }
+  /*--------------------------------------------------------------
+  ## Content
+  --------------------------------------------------------------*/
+  .site-content {
+    min-height: 1060px; }
+  .site-header {
+    display: flex;
+    justify-content: space-between; }
+  .site-header .header-content {
+    width: 100%; }
+  .site-header .main-navigation {
+    margin: auto 20px;
+    width: auto; }
+  .main-navigation ul {
+    display: none; }
+  .menu-toggle {
+    display: block; }
+  .header-content .soc-icons {
+    display: none; }
+  .top-tel {
+    display: none; }
+  #main-row-3 .width-400 {
+    margin-left: 0; }
+  .big_red_txt {
+    font-size: 45px;
+    line-height: normal; }
+  .red_button {
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    height: 40px; }
+  .red_button-clear {
+    font-size: 18px;
+    height: 40px;
+    line-height: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #C80E0F; }
+    .red_button-clear:visited {
+      color: #C80E0F; }
+  #btn-create-club1, #btn-create-club2 {
+    color: #fff;
+    text-decoration: none; }
+  .club-left {
+    margin-left: 0;
+    max-width: initial;
+    width: 56%; }
+  .club-right {
+    width: 40%; }
+  .club-right-img1 img {
+    width: 230px; }
+  .club-right-img2 img {
+    width: 300px; }
+  #custom_html-3 {
+    margin-right: 15px; } }
+
+@media only screen and (max-width: 768px) {
+  /*--------------------------------------------------------------
+  # Elements
+  --------------------------------------------------------------*/
+  p {
+    font-size: 16px; }
+  .d-none {
+    display: none; }
+  /*--------------------------------------------------------------
+  ## Content
+  --------------------------------------------------------------*/
+  .site-content {
+    min-height: 700px; }
+  .red_button {
+    padding: 12px 26px; }
+    .red_button.width-300 {
+      width: 250px;
+      display: flex;
+      justify-content: center; }
+    .red_button.width-250 {
+      width: 180px;
+      display: flex;
+      justify-content: center; }
+  #main-row-1 {
+    background-position: -320px;
+    padding: 150px 15px 40px;
+    min-height: 470px; }
+    #main-row-1 h4 {
+      font-size: 18px; }
+  #main-row-2 {
+    background-position: -290px;
+    min-height: 388px;
+    padding: 10px 15px;
+    margin: 50px 0; }
+  #main-row-3 {
+    background-position: -330px;
+    min-height: 370px; }
+  .main-page-left {
+    margin-right: -40px; }
+  .table-pc .rasp-table {
+    margin-left: 0; }
+    .table-pc .rasp-table .rasp-tr:nth-child(3) > .rasp-td:nth-child(1), .table-pc .rasp-table .rasp-tr:nth-child(4) > .rasp-td:nth-child(1),
+    .table-pc .rasp-table .rasp-tr:nth-child(5) > .rasp-td:nth-child(1), .table-pc .rasp-table .rasp-tr:nth-child(6) > .rasp-td:nth-child(1), .table-pc .rasp-table .rasp-tr:nth-child(7) > .rasp-td:nth-child(1) {
+      font-size: 20px; }
+  .table-pc .rasp-tr > .rasp-td:nth-child(1) {
+    font-size: 20px; }
+  .table-pc .rasp-td {
+    font-size: 13px; }
+  .footer-content .red_button {
+    width: 200px;
+    margin-bottom: 22px; }
+  .blog .type-post {
+    max-width: 50%;
+    padding: 0 15px; }
+    .blog .type-post:nth-child(2n+1) {
+      padding-left: 0 !important;
+      padding-right: 10px !important; }
+    .blog .type-post:nth-child(2n) {
+      padding-right: 0 !important;
+      padding-left: 10px !important; }
+    .blog .type-post .post-thumbnail {
+      max-height: 168px; }
+    .blog .type-post .entry-header {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .blog .type-post .entry-title {
+      font-size: 20px;
+      max-width: 65%; }
+    .blog .type-post .entry-content {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .blog .type-post p {
+      font-size: 14px; }
+    .blog .type-post .entry-meta {
+      font-size: 14px; }
+  .single-post .type-post {
+    padding: 0 15px; }
+  .marginright-100 {
+    margin-right: 0; }
+  .games-table table {
+    width: 100%; }
+  .club-left .red_button.width-300 {
+    max-width: 180px; }
+  .shadow_text {
+    height: 8em; }
+    .shadow_text:after {
+      box-shadow: inset #1b1b1b 0 -136px 80px -79px; } }
+
+@media only screen and (max-width: 480px) {
+  /*--------------------------------------------------------------
+  # Elements
+  --------------------------------------------------------------*/
+  h2 {
+    font-size: 24px; }
+  h3 {
+    font-size: 20px; }
+  h4 {
+    font-size: 18px; }
+  p {
+    font-size: 14px;
+    line-height: 16px; }
+  .d_none_mob {
+    display: none; }
+  .full_row_mob {
+    padding-left: 15px;
+    padding-right: 15px; }
+  /*--------------------------------------------------------------
+  # Forms
+  --------------------------------------------------------------*/
+  .panel_lk_recall.floatform {
+    top: 0 !important;
+    bottom: 0;
+    max-width: 300px;
+    max-height: 350px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .panel_lk_recall .form-tab-rcl {
+    padding: 40px; }
+    .panel_lk_recall .form-tab-rcl input[type="submit"].red_button {
+      height: 40px; }
+  .popup-nums span {
+    width: 30px;
+    height: 30px;
+    font-size: 14px; }
+  /*--------------------------------------------------------------
+  ## Posts and pages
+  --------------------------------------------------------------*/
+  #media_image-2 {
+    margin-top: 12px; }
+    #media_image-2 img {
+      width: 70%;
+      margin-top: 0px; }
+  button#responsive-menu-button {
+    top: 12px !important; }
+  .login-btns {
+    width: 70%;
+    margin-right: 60px; }
+    .login-btns .red_button, .login-btns .red_button-clear, .login-btns .spacer_slash {
+      font-size: 16px; }
+  .kc_single_image {
+    float: none !important;
+    max-width: 230px !important;
+    margin: auto; }
+  #main-row-1 {
+    padding: 125px 0 0;
+    background-image: url("/wp-content/uploads/2019/07/glavnyj_jekran-01-01-mob.jpg");
+    background-position: top;
+    min-height: 300px; }
+    #main-row-1 > .kc-container {
+      padding-left: 0 !important; }
+    #main-row-1 .kc_column {
+      padding-right: 15px; }
+    #main-row-1 h4 {
+      font-size: 14px; }
+    #main-row-1 .big_red_txt {
+      font-size: 34px; }
+  #main-row-2 {
+    padding: 40px 0 20px;
+    min-height: 300px;
+    margin: 0;
+    background-image: url("/wp-content/uploads/2019/07/o-kompanii-mob.jpg");
+    background-position: top;
+    box-shadow: 0px -10px 30px 30px #050505; }
+    #main-row-2 > .kc-container {
+      padding-left: 0 !important; }
+    #main-row-2 p {
+      line-height: 22px; }
+  #main-row-3 {
+    padding: 20px 0px 60px;
+    min-height: 300px;
+    background-image: url("/wp-content/uploads/2019/07/ezhenedelnye-turniry-mob-2.jpg");
+    background-position: top; }
+    #main-row-3 > .kc-container {
+      padding-left: 0 !important; }
+    #main-row-3 .width-400 {
+      max-width: 250px; }
+  .kc-col-container .kc_row {
+    padding-right: 30px; }
+  .main-page-right {
+    margin-left: 30px; }
+  .main-page-left {
+    margin-right: 0; }
+  .table-wrap {
+    margin-top: 140px; }
+  .table-pc {
+    display: none; }
+  .table-mob {
+    display: block; }
+  .footer-content {
+    flex-wrap: wrap;
+    align-items: normal;
+    padding: 0 30px; }
+    .footer-content .red_button {
+      width: auto; }
+  #media_image-3 {
+    width: 80px;
+    margin-left: -15px;
+/*     margin-top: -50px;  */
+	}
+  #nav_menu-2, #nav_menu-3 {
+    order: 1;
+    width: 50%;
+    font-size: 13px; }
+  #custom_html-3 {
+    margin-right: 0;
+    margin-bottom: 2em; }
+  .blog .type-post {
+    max-width: 100%; }
+    .blog .type-post:nth-child(2n+1), .blog .type-post:nth-child(2n) {
+      padding-left: 30px !important;
+      padding-right: 30px !important; }
+  .shadow_text {
+    height: 7.8em;
+    margin-bottom: 1em; }
+    .shadow_text:after {
+      box-shadow: inset #1b1b1b 0 -135px 72px -72px; }
+    .shadow_text p {
+      line-height: normal; }
+  .club-left-1 {
+    width: 89% !important; }
+  .club-right-img1 {
+    position: absolute !important;
+    max-width: 120px;
+    right: 0;
+    margin: 20px; }
+  .club-tips--left-img {
+    width: 28% !important;
+    padding: 0 !important;
+    margin-left: -15px; }
+  .club-tips--right-img {
+    width: 36% !important;
+    padding: 0 !important;
+    margin-right: -25px; }
+  .club-tips--left-txt {
+    padding-left: 0 !important; }
+  .club-tips--right-txt {
+    padding-right: 0 !important;
+    margin-right: -20px; }
+  .club-left-2 {
+    width: 74% !important; }
+  .club-right-img2 {
+    width: 40% !important;
+    position: absolute !important;
+    right: 0;
+    margin-right: 0px;
+    margin-top: 20px;
+    padding: 0 !important; }
+  .club-fullwidth2 {
+    padding-left: 30px !important;
+    padding-right: 30px !important; } }
+
+@media only screen and (max-width: 320px) {
+  #main-row-1 {
+    padding: 120px 0 20px;
+    min-height: 256px; }
+    #main-row-1 h4 {
+      font-size: 14px; }
+    #main-row-1 .big_red_txt {
+      font-size: 28px; }
+	#media_image-2 {
+		margin-top: 4px;
+	}
+	#media_image-3 {
+		width: 60px;
+	}
+	#nav_menu-2, #nav_menu-3 {
+		
+	}
+  .red_button {
+    font-size: 14px; }
+  .login-btns .red_button, .login-btns .red_button-clear, .login-btns .spacer_slash {
+    font-size: 14px; }
+  button#responsive-menu-button {
+    top: 5px !important; } 
+}
