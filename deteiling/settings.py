@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-iu%y+6w24+1yh720r&ua%qrb%hckw8o9y6khb)$)(n(+!r(*d(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com', '.юпокер.online','31.31.196.206']
+ALLOWED_HOSTS = ['www.юпокер.online','юпокер.online','www.xn--e1ajldi3f.online','xn--e1ajldi3f.online']
 
 
 # Application definition
